@@ -122,6 +122,13 @@
     padding: 10px 0;
     border-radius: 3px;
 }
+.Amazoncards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    margin: 20px 0;
+    align-content: center;
+}
 
 @media screen and (max-width:1180px){
     .zero button,.first button,.second button,.third button{
